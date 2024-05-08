@@ -12,3 +12,31 @@ header nav {
     display: flex;
     justify-content: flex-end;
 }
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;/* este sirve para que la altura sea automatica*/
+    display: flex;
+    list-style: none; /*para ajustar los puntos de la lista*/
+    justify-content: center; /*para centrar el contenido*/
+    align-items: center;
+}
+nav .nav-right-section a{
+    margin-right: 10px;
+    color: #000000; /*el color se pone negro ya que por defecto los hipervinculos se ponen en azul*/
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+nav .nav-right-section .menu-icon{
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");background-repeat: no-repeat;
+    background-position: center;  
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
